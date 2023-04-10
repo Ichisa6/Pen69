@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7c67db07135a47d79edfad90465c1d66" Name="Diagram1">
+        <EntityTypeShape EntityType="Pencil1Model.Color" Width="1.5" PointX="0.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Pencil1Model.Pencil" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Pencil1Model.Role" Width="1.5" PointX="5.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Pencil1Model.sysdiagrams" Width="1.5" PointX="2.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Pencil1Model.Type" Width="1.5" PointX="0.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Pencil1Model.User" Width="1.5" PointX="8" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Pencil1Model.View" Width="1.5" PointX="0.75" PointY="7.25" IsExpanded="true" />
+        <AssociationConnector Association="Pencil1Model.FK_Pen_Color" ManuallyRouted="false" />
+        <AssociationConnector Association="Pencil1Model.FK_Pen_Type" ManuallyRouted="false" />
+        <AssociationConnector Association="Pencil1Model.FK_Pen_View" ManuallyRouted="false" />
+        <AssociationConnector Association="Pencil1Model.FK_User_Role" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
